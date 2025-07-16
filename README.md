@@ -1,3 +1,3 @@
-# Rainy Forest
+# Cartoon Rain
 
-An HTML, CSS & JS animation of a wet rainforest night to celebrate the arrival of monsoon in South-East Asia.
+An HTML, CSS & JS animation of a cartoon cloud raining, to celebrate the arrival of monsoon in South-East Asia.
