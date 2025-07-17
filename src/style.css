@@ -1,0 +1,42 @@
+body {
+  background: #CCCECE;
+  overflow: hidden;
+}
+@mixin radius($r) {
+  border-radius: $r;
+}
+.container,
+.cloud,
+.face,
+.eye,
+.mouth, .rain {
+  position: absolute;
+}
+.container {
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  height: 250px;
+}
+.cloud {
+  z-index: 70;
+  width: 210px;
+  height: 70px;
+  background: #FFF;
+  border-radius: 100px;
+  .one, .two, .three {
+    position: absolute;
+    background: #FFF;
+    @include radius(100%);
+  }
+  .one {
+    top: -50px;
+    left: 32px;
+    width: 100px;
+    height: 100px;
+  }
+  .two {
+    top: -30px;
